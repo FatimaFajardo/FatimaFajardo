@@ -153,13 +153,16 @@ td.Porcentaje {
     padding-left : 2em;
     background-position-y : center;
 }
+/* Pon las URLs de las imagenes bien porfiiiis :( */
 a[href^="http:"] {
-    padding-right : 3.5em;
-    background-image : url(/imagenes/puntero.webp.webp);
-    z-index : 20;
-    background-size : 100em;
-    background-repeat : no-repeat;
-    margin-left : 4px;
+    padding-right: 3.5em;
+    background-image: url(/imagenes/puntero.webp);
+    z-index: 20;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+    background-position: center;
+    color: green;
 }
 @media all and (min-width: 550px) and (max-width: 1000px) {
     .h2 {
@@ -167,7 +170,7 @@ a[href^="http:"] {
     background : #6547313b;
     }
 }
-@media all and (min-width: 1000px) {
+@media all and (max-width: 1000px) {
     nav > ul {
     display : flex;
     flex-direction : column;
