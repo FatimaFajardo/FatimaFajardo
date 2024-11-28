@@ -1,0 +1,177 @@
+* {background : #fefeef1a;
+}
+:root {
+    --verde : green;
+    --azul : rgb(212, 212, 249);
+}
+h2 {
+    color : white;
+    text-align : justify;
+    margin-top : 6px;
+    margin-bottom : 6px;
+    position : sticky;
+    top : 16px;
+}
+.introduccion {
+    color : #499c49;
+    display : flex;
+    flex-wrap : wrap;
+    flex-direction : row;
+    justify-content : space-around;
+}
+ul.ul1 {
+    color : #b86a6a;
+}
+.footer.columna {
+    color : white;
+    display : inline-table;
+    text-align : center;
+}
+.cuerpo .ul2 {
+    background : #e69ba9;
+    text-align : right;
+}
+h1, p {
+    display : flex;
+    justify-content : center;
+    flex-direction : column;
+}
+ul li {
+    color : fuchsia;
+}
+p > strong {
+    color : coral;
+    background : #fcd5b93b;
+}
+nav > ul {
+    list-style : none;
+    display : flex;
+    flex-wrap : nowrap;
+    align-items : center;
+    justify-content : space-evenly;
+    position : fixed;
+    width : 100%;
+    background : white;
+    margin : 0;
+    top : 0;
+    height : 80px;
+    padding : 0;
+    z-index : 10;
+}
+body {
+    margin-top : 70px;
+    font-family : "Catamaran", sans-serif;
+}
+tr {
+    background : green;
+    animation-name : cambiocolor;
+    animation-duration : 4s;
+}
+@keyframes cambiocolor {
+    from {background : var(--azul);}
+    to {background : green;}
+}
+td.cm {
+    width : 20cm;
+    height : 20cm;
+}
+td.mm {
+    background : bisque;
+    width : 200mm;
+    height : 200mm;
+}
+td.pulgadas {
+    width : 4in;
+    height : 4in;
+}
+td.px {
+    background : cornsilk;
+    width : 20px;
+    height : 20px;
+}
+td.pt {
+    background : green;
+    width : 20pt;
+    height : 20pt;
+}
+td.pc {
+    width : 20pc;
+    height : 20pc;
+}
+td.em {
+    background : hotpink;
+    width : 20em;
+    height : 20em;
+}
+td.rem {
+    background : green;
+    width : 20rem;
+    height : 20rem;
+}
+td.vh {
+    background : #d8ffb2;
+    width : 20vh;
+    height : 20vh;
+}
+td.vw {
+    background : #fcd0d0;
+    width : 20vw;
+    height : 20vw;
+}
+td.Porcentaje {
+    background : violet;
+    width : 25%;
+    height : 25%;
+}
+.cerrar {
+    position : fixed;
+    top : 16px;
+    right : 16px;
+    background : turquoise;
+    padding : 10px;
+    border-radius : 100%;
+    color : white;
+    font-weight : 800;
+    cursor : pointer;
+    z-index : 11;
+}
+.imagenfalsa {
+    height : 200px;
+    width : 600px;
+    margin : auto;
+    background-color : currentColor;
+    background-image : url(/imagenes/fondito.jpg);
+    background-attachment : fixed;
+    background-size : 16px;
+    background-position : center;
+    background-repeat : no-repeat;
+}
+.imagenfalsa2 {
+    background : url(/imagenes/fondito.jpg) -11px -31px;
+    background-size : 3em;
+    background-repeat : no-repeat;
+    padding-left : 2em;
+    background-position-y : center;
+}
+a[href^="http:"] {
+    padding-right : 3.5em;
+    background-image : url(/imagenes/puntero.webp.webp);
+    z-index : 20;
+    background-size : 100em;
+    background-repeat : no-repeat;
+    margin-left : 4px;
+}
+@media all and (min-width: 550px) and (max-width: 1000px) {
+    .h2 {
+    color : rgb(127, 80, 255);
+    background : #6547313b;
+    }
+}
+@media all and (min-width: 1000px) {
+    nav > ul {
+    display : flex;
+    flex-direction : column;
+    height : auto;
+    align-items : center;
+    }
+}
