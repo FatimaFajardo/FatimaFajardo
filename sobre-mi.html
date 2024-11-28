@@ -1,1 +1,66 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>Esta es la página sobre mí</title><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><header><nav><ul><li><a href="/">Inicio</a></li><li><a href="/sobre-mi.html">Sobre mi</a></li><li><a href="/contacto.html">Contacto</a></li><li><a href="/carpeta_ejemplo/archivo-carpeta.html">Subcarpeta</a></li><li><a href="https://www.linkedin.com/in/fatimafajardonovo/" target="_blank" info>Más información</a></li></ul></nav></header><section id="table"><h1 class="h1big" style="background-color:beige">Esta es una pagina sobre mí</h1><table><tr><th style="color:#8a2be2">Este es mi primer encabezado</th><th style="color:brown">Este es mi segundo encabezado</th><th style="color:#ff8c00">Este es mi tercer encabezado</th></tr><tr><td>(1,1)</td><td>(2,1)</td><td>(3,1)</td></tr><tr><td>(1,2)</td><td>(2,2)</td><td>(3,2)</td></tr><tr><td>(1,3)</td><td>(2,3)</td><td>(3,3)</td></tr></table></section><section id="faqs"><h2>Preguntas Frecuentes</h2><details><summary>¿De dónde eres?</summary>Soy de un pueblo de Granada, Lentegí, pero actualmente estoy viviendo en la capital</details><details><summary>¿Cuántos años tienes?</summary>22</details></section><footer><address>(c)<a href="mailto:fatimafajardonovo@gmail.com">Fátima Fajardo</a>Almuñecar,Granada</address></footer></body></html>
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/estilo.css"> <!--Añadimos la / para indicar la carpeta, lo añadimos debajo del utf-8-->
+        <title>Esta es la página sobre mí</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    
+<body>
+    <header>
+        <nav>
+            <ul class="intro">
+                <li><a href="/">Inicio</a></li>
+                <li><a href="/sobre-mi.html">Sobre mi</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+                <li><a href="/carpeta_ejemplo/archivo-carpeta.html">Subcarpeta</a></li>
+                <li><a href="https://www.linkedin.com/in/fatimafajardonovo/" target="_blank" info>Más información</a></li>
+            </ul>
+     </nav>
+    </header>
+    <section id="table"> 
+       <h1 class="h1big" style="background-color: beige">Esta es una pagina sobre mí</h1> <!--¿Es bueno / optimo insertar más de un atributo a la vez?-->
+       <table class="intro">
+        <tr>
+            <th style="color:blueviolet;">Este es mi primer encabezado</th>
+            <th style="color: brown">Este es mi segundo encabezado</th>
+            <th style="color: darkorange">Este es mi tercer encabezado</th>
+        </tr>
+        <tr>
+            <td>(1,1)</td>
+            <td>(2,1)</td>
+            <td>(3,1)</td>
+        </tr>
+        <tr>
+            <td>(1,2)</td>
+            <td>(2,2)</td>
+            <td>(3,2)</td>
+        </tr>
+        <tr>
+            <td>(1,3)</td>
+            <td>(2,3)</td>
+            <td>(3,3)</td>
+        </tr>
+    </table>
+    </section>
+    
+    <section id="faqs">
+        <h2>Preguntas Frecuentes</h2>
+            <details>
+                <summary>¿De dónde eres?</summary>
+                Soy de un pueblo de Granada, Lentegí, pero actualmente estoy viviendo en la capital
+            </details>
+            <details class="intro">
+                <summary>¿Cuántos años tienes?</summary>
+                22
+            </details>
+        </section>
+    <footer>
+        <address class="intro">
+        (c) <a href="mailto:fatimafajardonovo@gmail.com">Fátima Fajardo</a>
+        Almuñecar,Granada
+        </address>
+    </footer>
+</body>
+</html>

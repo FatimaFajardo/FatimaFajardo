@@ -1,1 +1,64 @@
-<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><title>Inicio web Máster</title><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><header><nav><ul><li><a href="/">Inicio</a></li><li><a href="/sobre-mi.html">Sobre mi</a></li><li><a href="/contacto.html">Contacto</a></li><li><a href="/carpeta_ejemplo/archivo-carpeta.html">Subcarpeta</a></li><li><a href="https://www.linkedin.com/in/fatimafajardonovo/" target="_blank" info>Más información</a></li></ul></nav></header><section id="bannerhome"><h1 class="h1big">Soy Fátima</h1><div title="Estoy diciendo hola">Hola</div><fatima>Esto es<p>una etiqueta personalizada</p></fatima><div style="color:#dc143c">Esto es una<strong>palabra</strong>muy importante</div><span>Esto es una etiqueta span</span><div>Esto es un div<div>dentro de un div</div></div><span>Esto es un span<br>con un<div>div dentro</div></span><img src="/foto/_19A1995.JPG" alt="foto-de-tedxgranada" width="500,400" loading="lazy"><p><a href="#">Adiós</a></p></section><footer><address>(c)<a href="mailto:fatimafajardonovo@gmail.com">Fátima Fajardo</a>Almuñecar,Granada</address></footer></body></html>
+<!DOCTYPE html>
+<html lang="es"> 
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="/css/estilo.css"> <!--Añadimos la / para indicar la carpeta, lo añadimos debajo del utf-8-->
+        <title>Inicio web Máster</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        
+    </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="intro"><a href="/">Inicio</a></li>
+                <li><a href="/sobre-mi.html">Sobre mi</a></li>
+                <li class="intro jueves"><a href="/contacto.html">Contacto</a></li>
+                <li class="intro master"><a href="/carpeta_ejemplo/archivo-carpeta.html">Subcarpeta</a></li>
+                <li><a href="https://www.linkedin.com/in/fatimafajardonovo/" target="_blank" info>Más información</a></li>
+            </ul>
+            <div class="Cerrar elemento">X</div>
+     </nav>
+    </header>
+    <section id="bannerhome"> 
+       <h1 class="h1big">Soy Fátima</h1> <!--¿Puede haber más de un atributo a la vez?-->
+          <div title="Estoy diciendo hola">Hola</div>
+            <fatima>Esto es <p>una etiqueta personalizada</p> </fatima>
+            <div style="color: crimson;">Esto es una <strong>palabra</strong> muy importante</span></div>
+            <span class="intro">Esto es una etiqueta span</span>
+            <div class="intro master">Esto es un div <div>dentro de un div</div></div>
+            <span >Esto es un span <br>con un <div>div dentro</div></span>
+            <img src="/foto/_19A1995.JPG" alt="foto-de-tedxgranada" width="500,400" loading="lazy">
+            <p><a href="#">Adiós</a></p>
+            <div class="herencias">
+                <div class="parrafos">
+                    <p>Esto es el parrafo 1</p>
+                </div>
+                <p>PArrafo 2</p>
+            </div>
+            <h2>Medidas absolutas</h2>
+            <div class="absolutas size">
+                <div class="cm">Centrimetros=cm</div>
+                <div class="mm">Milimetros=mm</div>
+                <div class="in">in=Pulgadas</div>
+                <div class="px">px=Pixels</div>
+                <div class="pt">pt=Puntos</div>
+                <div class="pc">pc=Picas</div>
+            </div>
+            <h2>Medidas relativas</h2>
+            <div class="relativas size">
+                <div class="em">em=Multiplicador del tamaño de la fuente</div>
+                <div class="rem">rem=Multiplicador del tamaño de la fuente del elemento root</div>
+                <div class="vh">vh=Porcentaje del ancho del viewport</div>
+                <div class="vw">vw=Porcentaje del alto del viewport</div>
+                <div class="porcentaje">%=Porcentaje del tamaño del elemento padre</div>
+            </div>
+    </section>
+    <footer>
+        <address class="intro">
+        (c) <a href="mailto:fatimafajardonovo@gmail.com">Fátima Fajardo</a>
+        Almuñecar,Granada
+        </address>
+    </footer>
+</body>
+</html>
