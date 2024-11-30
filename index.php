@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="/css/estilos.css">
         <link rel="stylesheet" href="/css/fonts.css">
+        <base href="https://master-fatima-fajardo.test/">
         <!-- 
         Para que vaya porfis
         <base href="https://master-fatima-fajardo.test/">
@@ -18,19 +19,16 @@
         <header class="barra-de-navegacion">
             <nav>
                 <ul>
-                    <!-- He puesto este https no para que te lo quedes
-                     sino para que veas que funciona
-                     -->
-                    <li><a href="http://master-fatima-fajardo.test/" target="_blank">Inicio</a></li>
-                    <li><a href="blog.html" target="_blank">Blog</a></li>
-                    <li><a href="quienes-somos.html" target="_blank">¿Quiénes somos?</a></li>
-                    <li><a href="https://www.linkedin.com/in/fatimafajardonovo/" target="_blank">Más información</a></li>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="quienes-somos.php">¿Quiénes somos?</a></li>
+                    <li><a href="https://www.linkedin.com/in/fatimafajardonovo/">Más información</a></li>
                 </ul>
                 <div class="cerrar">x</div>
             </nav>
         </header>
         <section id="home">
-            <h1>Todo lo que debes saber de Matketing Digital</h1>
+            <h1><?php echo "Todo lo que debes saber de Matketing Digital"?></h1>
                 <p>En esta web puedes encontrar todo tipo de recuros que te ayudarán a empezar tu camino en el marketing digital</p>
                 <ul>
                     <li class="marketing">SEO</li>
@@ -45,16 +43,16 @@
                 </figure>
                 <div class="imagenfalsa"></div>
                 <div class="imagenfalsa2">
-                    <a href="/blog/como-hacer-una-estrategia-de-e-mail-marketing.html">Marketing_igi</a>
+                    <a href="/blog/como-hacer-una-estrategia-de-e-mail-marketing.php">Marketing_igi</a>
                 </div>
         </section>
         <footer class="footer">
             <div class="footer columna uno"><strong>Todos nuestros recuros</strong><p><a href="/blog/">Blog</a></p></div>
             <div class="footer columna dos">Nuestros últimos posts
                 <ul>
-                    <li><a href="/blog/como-hacer-una-estrategia-de-e-mail-marketing.html" target="_blank"><strong>¿Cómo hacer una estrategia de e-mail marketing?</strong></a></li>
-                    <li><a href="/blog/que-es-el-marketing-digital.html" target="_blank"><strong>¿Qué es el Marketing Digital?</strong></a></li>
-                    <li><a href="/blog/como-hacer-una-auditoria-seo.html" target="_blank"><strong>¿Cómo hacer una auditoría SEO?</strong></a></li>
+                    <li><a href="/blog/como-hacer-una-estrategia-de-e-mail-marketing.php" target="_blank"><strong>¿Cómo hacer una estrategia de e-mail marketing?</strong></a></li>
+                    <li><a href="/blog/que-es-el-marketing-digital.php" target="_blank"><strong>¿Qué es el Marketing Digital?</strong></a></li>
+                    <li><a href="/blog/como-hacer-una-auditoria-seo.php" target="_blank"><strong>¿Cómo hacer una auditoría SEO?</strong></a></li>
                 </ul>
             </div>
         </footer>

@@ -68,9 +68,9 @@
             <div class="footer columna uno"><strong>Todos nuestros recuros</strong><p><a href="/blog/">Blog</a></p></div>
             <div class="footer columna dos">Nuestros últimos posts
                 <ul>
-                    <li><a href="/blog/como-hacer-una-auditoria-seo.html" target="_blank"><strong>¿Cómo hacer una auditoría SEO?</strong></a></li>
-                    <li><a href="/blog/como-hacer-una-estrategia-de-e-mail-marketing.html" target="_blank"><strong>¿Cómo hacer una estrategia de E-Mail Marketing?</strong></a></li>
-                    <li><a href="/blog/que-es-el-marketing-digital.html" target="_blank"><strong>¿Qué es el Marketing Digital?</strong></a></li>
+                    <li><a href="/blog/como-hacer-una-auditoria-seo.php" target="_blank"><strong>¿Cómo hacer una auditoría SEO?</strong></a></li>
+                    <li><a href="/blog/como-hacer-una-estrategia-de-e-mail-marketing.php" target="_blank"><strong>¿Cómo hacer una estrategia de E-Mail Marketing?</strong></a></li>
+                    <li><a href="/blog/que-es-el-marketing-digital.php" target="_blank"><strong>¿Qué es el Marketing Digital?</strong></a></li>
                 </ul>
             </div>
         </footer>
