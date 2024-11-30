@@ -1,8 +1,12 @@
-* {background : #fefeef1a;
+* {background : rgb(251, 250, 250);
 }
 :root {
     --verde : green;
     --azul : rgb(212, 212, 249);
+}
+@keyframes cambiocolor {
+    from {background : var(--azul);}
+    to {background : green;}
 }
 h2 {
     color : rgb(217, 142, 142);
@@ -23,7 +27,7 @@ ul.ul1 {
     color : #b86a6a;
 }
 .footer.columna {
-    color : white;
+    color : rgb(114, 54, 54);
     display : inline-table;
     text-align : center;
 }
@@ -51,7 +55,7 @@ nav > ul {
     justify-content : space-evenly;
     position : fixed;
     width : 100%;
-    background : white;
+    background : rgb(255, 255, 255);
     margin : 0;
     top : 0;
     height : 80px;
@@ -61,15 +65,12 @@ nav > ul {
 body {
     margin-top : 70px;
     font-family : "Catamaran", sans-serif;
+    background-color: aliceblue;
 }
 tr {
-    background : green;
+    background : rgb(124, 183, 124);
     animation-name : cambiocolor;
     animation-duration : 4s;
-}
-@keyframes cambiocolor {
-    from {background : var(--azul);}
-    to {background : green;}
 }
 td.cm {
     width : 20cm;
@@ -153,21 +154,20 @@ td.Porcentaje {
     padding-left : 2em;
     background-position-y : center;
 }
-/* Pon las URLs de las imagenes bien porfiiiis :( */
-a[href^="http:"] {
+a[href^="https:"] {
     padding-right: 3.5em;
     background-image: url(/imagenes/puntero.webp);
     z-index: 20;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 4px;
-    background-position: center;
-    color: green;
+    background-position-x: right;
+    color: rgb(175, 36, 161);
 }
 @media all and (min-width: 550px) and (max-width: 1000px) {
     .h2 {
     color : rgb(127, 80, 255);
-    background : #6547313b;
+    background : rgb(238, 162, 162);
     }
 }
 @media all and (max-width: 1000px) {
