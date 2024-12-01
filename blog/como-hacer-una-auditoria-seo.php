@@ -1,8 +1,11 @@
-<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
+<?php 
+$h1 = '¿Cómo hacer una auditoría SEO?';
+define("h1", "Auditorías SEO: ¿Cómo hacerlas?");
+include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
 
     <section id="article">
-        <h1>Auditorías SEO: ¿Cómo hacerlas?</h1>
+        <h1><?php echo h1; ?></h1>
             <div class="introduccion">
                 <h2>¿Qué es una auditoría SEO?</h2>
                     <p style="font-size: x-large;">La auditoría SEO es un análisis detallado de los diferentes aspectos que afectan el posicionamiento orgánico de un <strong class="subrayado">sitio web</strong>.

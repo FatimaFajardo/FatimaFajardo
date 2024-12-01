@@ -1,6 +1,7 @@
-<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
+<?php 
+$titulo = "¿Qué es el marketing Digital?";
+include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
-
         <section id="articulo">
                 <h1>¿Qué es el marketing Digital?</h1>
                     <div class="introduccion">

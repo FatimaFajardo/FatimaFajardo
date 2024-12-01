@@ -1,11 +1,10 @@
-<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
+<?php
+$h1 = 'El blog del Marketing Digital';
+define("h1", "El blog del Marketing Digital"); /* Tengo una duda; ¿Por qué si los ponemos debajo del include no nos reconoce la variable?. Lo intenté y no me funsiono:( */
+include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
-
-<?php echo $_SERVER["DOCUMENT_ROOT"];
-?>
-
         <section id="home">
-            <h1><?php echo "Todo lo que debes saber de Marketing Digital"?></h1>
+            <h1><?php echo h1;?></h1>
                 <p>En esta web puedes encontrar todo tipo de recuros que te ayudarán a empezar tu camino en el marketing digital</p>
                 <ul>
                     <li class="marketing">SEO</li>

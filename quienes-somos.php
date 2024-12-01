@@ -1,6 +1,9 @@
 <?php include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
+$h1 = '¿Quiénes somos?';
+define("h1", "¿Quiénes somos?");
 ?>
         <section id="quienes-somos">
+            <h1><?php echo h1;?></h1>
             <details>
                 <summary><h2>¿Dónde eres?<h2></summary>
                 Soy de un pueblo de Granada, Lentegí, pero actualmente estoy viviendo en la capital

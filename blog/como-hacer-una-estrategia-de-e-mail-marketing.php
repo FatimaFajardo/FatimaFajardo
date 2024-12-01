@@ -1,4 +1,6 @@
-<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
+<?php 
+$titulo = "Las estrategias de e-mail marketing?";
+include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
 
         <section id="articulo">

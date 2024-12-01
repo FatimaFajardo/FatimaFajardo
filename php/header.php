@@ -8,7 +8,13 @@
         <link rel="stylesheet" href="/css/estilos.css">
         <link rel="stylesheet" href="/css/fonts.css">
         <base href="https://master-fatima-fajardo.test/">
-        <title>Todo sobre el Marketing Digital</title>
+        <title><?php
+            if (empty ($titulo)){
+                        if(empty($h1)){echo 'Marketing digital';}
+                        else{echo h1 ;}
+            }
+            else {echo "$titulo";}
+        ?></title>
         <meta name="description" content="Conoce todos los aspectos del Marketing Digital en un único sitio">
     </head>
     <body>

@@ -1,4 +1,6 @@
-<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
+<?php 
+$titulo = "Las medidas en CSS";
+include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
 
         <section id="article">
