@@ -1,6 +1,9 @@
-<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
+<?php 
+$page='quienes somos';
 $h1 = '¿Quiénes somos?';
 define("h1", "¿Quiénes somos?");
+define ("pagina", "quienes somos");
+include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
         <section id="quienes-somos">
             <h1><?php echo h1;?></h1>

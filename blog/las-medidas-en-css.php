@@ -1,5 +1,8 @@
-<?php 
+<?php
+$metadescripcion ='¿Cuáles son las diferentes medidas en CSS?';
+$page='categoria blog';
 $titulo = "Las medidas en CSS";
+define("pagina", "directorio blog");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
 

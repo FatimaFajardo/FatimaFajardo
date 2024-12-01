@@ -1,5 +1,8 @@
-<?php 
+<?php
+$metadescripcion='Una estrategia de e-mail marketing es un canal que ofrece múltiples beneficios y una estrategia que servirá para una mayor organización';
+$page='categoria blog';
 $titulo = "Las estrategias de e-mail marketing?";
+define("pagina", "directorio blog");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
 

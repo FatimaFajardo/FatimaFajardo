@@ -1,5 +1,8 @@
-<?php 
+<?php
+$metadescripcion ='El marketing digital suele referirse a las campañas de marketing en línea que aparecen en un equipo, teléfono, tableta u otro dispositivo';
+$page='categoria blog';
 $titulo = "¿Qué es el marketing Digital?";
+define("pagina", "directorio blog");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
         <section id="articulo">

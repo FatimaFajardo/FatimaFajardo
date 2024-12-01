@@ -1,8 +1,10 @@
-<?php include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
+<?php
+$page='blog';
 $h1 = 'El blog del Marketing Digital';
 define("h1", "El blog del Marketing Digital");
+define("pagina", "blog");
+include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
-
     <section id="articulo">
         <h1><?php echo h1;?></h1>
         <div class="articulos blog">

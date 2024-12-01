@@ -1,6 +1,9 @@
-<?php 
-$h1 = '¿Cómo hacer una auditoría SEO?';
+<?php
+$metadescripcion = 'Las auditorias SEO son uno de los puntos más importantes del SEO.Su propósito es diagnosticar problemas y detectar puntos de optimización';
+$page='categoria blog';
+$titulo = '¿Cómo hacer una auditoría SEO?';
 define("h1", "Auditorías SEO: ¿Cómo hacerlas?");
+define("pagina", "directorio blog");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
 
@@ -8,7 +11,7 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
         <h1><?php echo h1; ?></h1>
             <div class="introduccion">
                 <h2>¿Qué es una auditoría SEO?</h2>
-                    <p style="font-size: x-large;">La auditoría SEO es un análisis detallado de los diferentes aspectos que afectan el posicionamiento orgánico de un <strong class="subrayado">sitio web</strong>.
+                    <p style="font-size: x-large;">Las auditorias SEO son uno de los puntos más importantes del SEO.
                     Su propósito es diagnosticar problemas y detectar puntos de optimización para mejorar el ranking de un <strong class="subrayado">sitio web</strong> en las páginas de resultados (SERPs) de los buscadores como Google.
                     Este estudio involucra un examen detallado de los elementos internos y externos del sitio para generar una diagnosis precisa y actualizada para delimitar las acciones a seguir.
                     Por tanto, la auditoría es el primer paso de cualquier optimización SEO que esté dirigida a cumplir objetivos estratégicos.</p>
