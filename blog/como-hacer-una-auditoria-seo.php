@@ -16,9 +16,11 @@
                         Cuando creamos un <strong class="subrayado">sitio web</strong> y lo alimentamos constantemente con nuevos contenidos y configuraciones, es muy sencillo perder el rastro del comportamiento de estas actividades una vez implementadas.
                         Asimismo, con los constantes cambios en el algoritmo de Google y el comportamiento de los usuarios en evolución, es necesario hacer una evaluación periódica del desempeño de tu <strong class="subrayado">sitio web</strong> en estos nuevos escenarios.
                         En este sentido, una 
-                        <?php $auditoriaseo = "Auditoría SEO";
+                        <?php $auditoriaseo = "Auditoría SEO ";
                             echo "$auditoriaseo" . "nos permite: ";
-                            ?>
+                            if ($auditoriaseo = 'Una auditoría SEO '){echo 'hacer una auditoria SEO';}
+                            elseif ($auditoriaseo != 'Una auditoría SEO ') {echo 'Auditoría SEO ';}
+                            else {'una auditoría a nivel SEO';}?></p>
                             <ul class="ul1">
                                 <li>adaptarte a los cambios en el algoritmo de los buscadores</li>
                                 <li>optimizar la indexación y el posicionamiento de tus páginas</li>

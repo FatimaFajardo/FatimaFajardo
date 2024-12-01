@@ -5,7 +5,7 @@
 ?>
 
         <section id="home">
-            <h1><?php echo "Todo lo que debes saber de Matketing Digital"?></h1>
+            <h1><?php echo "Todo lo que debes saber de Marketing Digital"?></h1>
                 <p>En esta web puedes encontrar todo tipo de recuros que te ayudarán a empezar tu camino en el marketing digital</p>
                 <ul>
                     <li class="marketing">SEO</li>
