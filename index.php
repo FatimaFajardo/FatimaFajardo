@@ -14,6 +14,7 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
                     <li class="marketing">E-Mail Marketing</li>
                     <li class="marketing">Social Media</li>
                 </ul>
+                <?php ctas(); ?>
                 <p>Además, en nuestro blog podrás encontrar información actualizada sobre todas estas temáticas.</p>
                 <figure>
                     <img width="600" height="400" alt="todo-sobre-marketing-digital" src="/imagenes/marketing-digital.jpg">

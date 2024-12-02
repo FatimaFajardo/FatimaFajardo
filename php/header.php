@@ -5,7 +5,11 @@
         <meta charset="viewport" content="width=device-width,initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
+        <?php include_once $_SERVER['DOCUMENT_ROOT'].'/php/funciones.php';?>
+        <link rel="stylesheet" href="/css/estilos.css">
+        <link rel="stylesheet" href="/css/fonts.css">
+        <base href="https://master-fatima-fajardo.test/">
+
     <?php
     switch(constant('pagina')){
         case 'inicio';
@@ -21,9 +25,6 @@
             echo '<!-- No pondre css en este caso del switch case --!>';
         /* Default es el equivalente al else en el caso de swtich*/
     }?>
-        <link rel="stylesheet" href="/css/estilos.css">
-        <link rel="stylesheet" href="/css/fonts.css">
-        <base href="https://master-fatima-fajardo.test/">
         <title><?php
             if (empty ($titulo)){
                         if(empty($h1)){echo 'Marketing digital';}

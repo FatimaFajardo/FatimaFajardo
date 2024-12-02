@@ -3,6 +3,7 @@ $metadescripcion ='¿Cuáles son las diferentes medidas en CSS?';
 $page='categoria blog';
 $titulo = "Las medidas en CSS";
 define("pagina", "directorio blog");
+define("newarticle","/que-es-el-marketing-digital.php");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
 
@@ -46,6 +47,7 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
                     <img src="/imagenes/marketing-digital.jpg" loading="lazy" alt="marketing-digital" width="600" height="400">
                     <div class="conclusion">
                     </div>
+                    <?php newarticle();?>
         </section>
 <?php include $_SERVER["DOCUMENT_ROOT"]. "/php/footer.php";
 ?>

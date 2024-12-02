@@ -2,6 +2,7 @@
 $metadescripcion='Una estrategia de e-mail marketing es un canal que ofrece múltiples beneficios y una estrategia que servirá para una mayor organización';
 $page='categoria blog';
 $titulo = "Las estrategias de e-mail marketing?";
+define("newarticle","/las-medidas-en-css.php");
 define("pagina", "directorio blog");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
@@ -41,6 +42,7 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
                             Para que tus correos electrónicos de marketing sean efectivos, debes comprender a la persona en el lado receptor, así como sus motivaciones y necesidades relacionadas al producto o servicio.
                             Esto ayudará a garantizar que tus correos electrónicos sean personalizados y relevantes, y a que tu base de datos se componga de los suscriptores que buscas.</p>
                     </div>
+                    <?php newarticle();?>
         </section>
 <?php include $_SERVER["DOCUMENT_ROOT"]. "/php/footer.php";
 ?>

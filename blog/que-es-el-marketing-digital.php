@@ -3,6 +3,7 @@ $metadescripcion ='El marketing digital suele referirse a las campañas de marke
 $page='categoria blog';
 $titulo = "¿Qué es el marketing Digital?";
 define("pagina", "directorio blog");
+define("newarticle","/las-medidas-en-css.php");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
         <section id="articulo">
@@ -35,6 +36,7 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
                             <li><h3>Resultados cuantificables</h3></li>
                         </ul>
                     </div>
+                    <?php newarticle();?>
         </section>
 <?php include $_SERVER["DOCUMENT_ROOT"]. "/php/footer.php";
 ?>
