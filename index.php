@@ -1,6 +1,4 @@
 <?php
-var_dump(http_response_code(404));
-header("Location:https://master-fatima-fajardo.test/blog.php");
 $page='home';
 $h1 = 'El blog del Marketing Digital';
 define("h1", "El blog del Marketing Digital"); /* Tengo una duda; ¿Por qué si los ponemos debajo del include no nos reconoce la variable?. Lo intenté y no me funsiono:( */
@@ -16,7 +14,9 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
                     <li class="marketing">E-Mail Marketing</li>
                     <li class="marketing">Social Media</li>
                 </ul>
-                <?php ctas(); ?>
+                <?php ctas(); 
+                ?>
+                <?php include $_SERVER["DOCUMENT_ROOT"]."/php/tablasql.php";?>
                 <p>Además, en nuestro blog podrás encontrar información actualizada sobre todas estas temáticas.</p>
                 <figure>
                     <img width="600" height="400" alt="todo-sobre-marketing-digital" src="/imagenes/marketing-digital.jpg">
@@ -24,7 +24,7 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
                 </figure>
                 <div class="imagenfalsa"></div>
                 <div class="imagenfalsa2">
-                    <a href="/blog/como-hacer-una-estrategia-de-e-mail-marketing.php">Marketing_igi</a>
+                    <a href="/blog/como-hacer-una-estrategia-de-e-mail-marketing">Marketing_igi</a>
                 </div>
         </section>
 <?php include $_SERVER["DOCUMENT_ROOT"]. "/php/footer.php";

@@ -1,7 +1,7 @@
 <?php
-define("enlace1","/otros-recursos.php");
-define("enlace2","/quienes-somos.php");
-define("enlace3","/blog.php");
+define("enlace1","/otros-recursos");
+define("enlace2","/quienes-somos");
+define("enlace3","/blog");
 
 function newarticle(){
     echo '<div class="nuevo-articulo"><a href="'.newarticle.'">Mira nuestro nuevo articulo</a></div>';

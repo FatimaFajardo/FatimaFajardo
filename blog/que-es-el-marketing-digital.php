@@ -3,7 +3,7 @@ $metadescripcion ='El marketing digital suele referirse a las campañas de marke
 $page='categoria blog';
 $titulo = "¿Qué es el marketing Digital?";
 define("pagina", "directorio blog");
-define("newarticle","/las-medidas-en-css.php");
+define("newarticle","/las-medidas-en-css");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
         <section id="articulo">

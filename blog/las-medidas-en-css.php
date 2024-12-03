@@ -3,7 +3,7 @@ $metadescripcion ='¿Cuáles son las diferentes medidas en CSS?';
 $page='categoria blog';
 $titulo = "Las medidas en CSS";
 define("pagina", "directorio blog");
-define("newarticle","/que-es-el-marketing-digital.php");
+define("newarticle","/que-es-el-marketing-digital");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
 

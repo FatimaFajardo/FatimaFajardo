@@ -5,12 +5,12 @@
         <meta charset="viewport" content="width=device-width,initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <?php include_once $_SERVER['DOCUMENT_ROOT'].'/php/funciones.php';?>
         <link rel="stylesheet" href="/css/estilos.css">
         <link rel="stylesheet" href="/css/fonts.css">
-        <base href="https://master-fatima-fajardo.test/">
 
     <?php
+        include_once $_SERVER['DOCUMENT_ROOT'].'/php/funciones.php';
+
     switch(constant('pagina')){
         case 'inicio';
             break;
@@ -25,6 +25,7 @@
             echo '<!-- No pondre css en este caso del switch case --!>';
         /* Default es el equivalente al else en el caso de swtich*/
     }?>
+
         <title><?php
             if (empty ($titulo)){
                         if(empty($h1)){echo 'Marketing digital';}
@@ -51,10 +52,10 @@
         <header class="barra-de-navegacion">
             <nav>
                 <ul>
-                    <li><a href="index.php">Inicio</a></li>
-                    <li><a href="/otros-recursos.php">Otros recursos</a></li>
-                    <li><a href="blog.php">Blog</a></li>
-                    <li><a href="quienes-somos.php">¿Quiénes somos?</a></li>
+                    <li><a href="index">Inicio</a></li>
+                    <li><a href="/otros-recursos">Otros recursos</a></li>
+                    <li><a href="blog">Blog</a></li>
+                    <li><a href="quienes-somos">¿Quiénes somos?</a></li>
                     <li><a href="https://www.linkedin.com/in/fatimafajardonovo/">Más información</a></li>
                 </ul>
                 <div class="cerrar">x</div>

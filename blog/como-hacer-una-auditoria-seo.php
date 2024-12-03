@@ -2,7 +2,7 @@
 $metadescripcion = 'Las auditorias SEO son uno de los puntos más importantes del SEO.Su propósito es diagnosticar problemas y detectar puntos de optimización';
 $page='categoria blog';
 $titulo = '¿Cómo hacer una auditoría SEO?';
-define("newarticle","/las-medidas-en-css.php");
+define("newarticle","/las-medidas-en-css");
 define("h1", "Auditorías SEO: ¿Cómo hacerlas?");
 define("pagina", "directorio blog");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
