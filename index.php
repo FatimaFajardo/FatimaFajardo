@@ -1,4 +1,6 @@
 <?php
+var_dump(http_response_code(404));
+header("Location:https://master-fatima-fajardo.test/blog.php");
 $page='home';
 $h1 = 'El blog del Marketing Digital';
 define("h1", "El blog del Marketing Digital"); /* Tengo una duda; ¿Por qué si los ponemos debajo del include no nos reconoce la variable?. Lo intenté y no me funsiono:( */
