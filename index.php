@@ -16,7 +16,7 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
                 </ul>
                 <?php ctas(); 
                 ?>
-                <?php include $_SERVER["DOCUMENT_ROOT"]."/php/tablasql.php";?>
+                <h2 id="heading2">¿Que más puedes encontrar?<h2>
                 <p>Además, en nuestro blog podrás encontrar información actualizada sobre todas estas temáticas.</p>
                 <figure>
                     <img width="600" height="400" alt="todo-sobre-marketing-digital" src="/imagenes/marketing-digital.jpg">
@@ -29,3 +29,4 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
         </section>
 <?php include $_SERVER["DOCUMENT_ROOT"]. "/php/footer.php";
 ?>
+<script src="/scripts/pruebas.js"></script>

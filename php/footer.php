@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="es">
     <footer class="footer">
             <div class="footer columna uno">
                 <p>Todos nuestros recuros</p>
