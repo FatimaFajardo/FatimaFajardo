@@ -1,4 +1,4 @@
-<?php
+<?php 
 $metadescripcion ='Los selectores en JavaScript se utilizan para fijar ciertas funcionalidades según el tipo y clase de elemento';
 $page='categoria blog';
 $titulo = "Los selectores en JavaScript";
@@ -50,6 +50,9 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
             const collection = document.querySelectorAll('.punto');
             for (let i = 0; i < collection.length; i++) {
             collection[i].setAttribute("class","li");}
+            var ejemplo='Variable con var';
+            let testeo='Variable con let';
+            const constante='ejemplo de constante';
         </script>
         <h2>¿Cómo utilizar los selectores en JavaScript para manipular el DOM?</h2>
         Una vez que has seleccionado un elemento, puedes utilizarlo para manipular el DOM. Algunos ejemplos incluyen cambiar el contenido del elemento, modificar sus atributos o estilos, o agregar o quitar clases.
