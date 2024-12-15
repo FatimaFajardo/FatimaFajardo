@@ -55,20 +55,22 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
             const constante='ejemplo de constante';
         </script>
         <h2>¿Cómo utilizar los selectores en JavaScript para manipular el DOM?</h2>
-        Una vez que has seleccionado un elemento, puedes utilizarlo para manipular el DOM. Algunos ejemplos incluyen cambiar el contenido del elemento, modificar sus atributos o estilos, o agregar o quitar clases.
+            <p>Una vez que has seleccionado un elemento, puedes utilizarlo para manipular el DOM. Algunos ejemplos incluyen cambiar el contenido del elemento, modificar sus atributos o estilos, o agregar o quitar clases.
 
-        <p>Modificar el contenido de un elemento</p>
-        const elemento = document.querySelector("#miElemento");
-        elemento.textContent = "Nuevo contenido";
+            <p>Modificar el contenido de un elemento</p>
+            <p>const elemento = document.querySelector("#miElemento");</p>
+            <p>elemento.textContent = "Nuevo contenido";</p>
 
-        <p>Cambiar los estilos de un elemento</p>
-        const elemento = document.querySelector(".miClase");
-        elemento.style.color = "red";
+            <p>Cambiar los estilos de un elemento</p>
+            <p>const elemento = document.querySelector(".miClase");</p>
+            <p>elemento.style.color = "red";</p>
 
-        <p>Agregar o eliminar clases</p>
-        const elemento = document.querySelector("#miElemento");
-        elemento.classList.add("nuevaClase");
-        elemento.classList.remove("miClase");
+            <p>Agregar o eliminar clases</p>
+            <p>const elemento = document.querySelector("#miElemento");</p>
+            <p>elemento.classList.add("nuevaClase");</p>
+            <p>elemento.classList.remove("miClase");</p>
+
+            <div id="cambiante"></div>
 
     <h2>Consideraciones y mejores prácticas</h2>
         <p>Evitar el uso excesivo de selectores universales (*) ya que pueden afectar el rendimiento en documentos grandes.</p>
@@ -85,6 +87,24 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
   <script> const collection = document.getElementsByTagName("h2");
                 for (let i = 0; i < collection.length; i++) {
                 collection[i].style.backgroundColor = "white";}
-    </script>
-
     
+    
+                let tiempo = new Date().getHours();
+let educacion;
+
+if (tiempo < 14){
+educacion = "buenos días";
+}
+else if (tiempo < 21){
+educacion = "buenas tardes";
+}
+else if (tiempo > 21){
+educacion = "buenas noches";
+}
+else{
+educacion = "muy buenas";
+}
+document.getElementById("cambiante").innerHTML = "Hola " + educacion;       </script>
+    
+    </script>
+        
