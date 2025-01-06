@@ -70,8 +70,6 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
             <p>elemento.classList.add("nuevaClase");</p>
             <p>elemento.classList.remove("miClase");</p>
 
-            <div id="cambiante"></div>
-
     <h2>Consideraciones y mejores prácticas</h2>
         <p>Evitar el uso excesivo de selectores universales (*) ya que pueden afectar el rendimiento en documentos grandes.</p>
         <p>Utilizar siempre identificadores únicos (id) cuando sea posible, ya que los selectores de ID son más rápidos.</p>
@@ -87,24 +85,5 @@ include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
   <script> const collection = document.getElementsByTagName("h2");
                 for (let i = 0; i < collection.length; i++) {
                 collection[i].style.backgroundColor = "white";}
-    
-    
-                let tiempo = new Date().getHours();
-let educacion;
-
-if (tiempo < 14){
-educacion = "buenos días";
-}
-else if (tiempo < 21){
-educacion = "buenas tardes";
-}
-else if (tiempo > 21){
-educacion = "buenas noches";
-}
-else{
-educacion = "muy buenas";
-}
-document.getElementById("cambiante").innerHTML = "Hola " + educacion;       </script>
-    
     </script>
         

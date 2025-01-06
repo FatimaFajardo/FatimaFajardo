@@ -4,10 +4,10 @@
         <meta charset="utf-8">
         <meta charset="viewport" content="width=device-width,initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link rel="stylesheet" href="/css/estilos.css">
         <link rel="stylesheet" href="/css/fonts.css">
-        <base href="https://master-fatima-fajardo.test" />
+        <base href="http://marketing.test/" />
 
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'].'/php/funciones.php';
@@ -53,12 +53,13 @@
         <header class="barra-de-navegacion">
             <nav>
                 <ul>
-                    <li><a href="index">Inicio</a></li>
-                    <li><a href="otros-recursos">Otros recursos</a></li>
-                    <li><a href="blog">Blog</a></li>
-                    <li><a href="quienes-somos">¿Quiénes somos?</a></li>
-                    <li><a href="https://www.linkedin.com/in/fatimafajardonovo/">Más información</a></li>
+                    <ol><a class="enlaces-header" href="index">Inicio</a></ol>
+                    <ol><a class="enlaces-header" href="otros-recursos">Otros recursos</a></ol>
+                    <ol><a class="enlaces-header" href="guias">Guías</a></ol>
+                    <ol><a class="enlaces-header" href="quienes-somos">¿Quiénes somos?</a></ol>
+                    <ol><a class="enlaces-header" href="https://www.linkedin.com/in/fatimafajardonovo/">Más información</a></ol>
                 </ul>
                 <div class="cerrar">x</div>
             </nav>
         </header>
+        

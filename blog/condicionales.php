@@ -48,7 +48,6 @@ let dia;
 <script>
     let franja = dia;
     let temperatura;
-
 if (franja != dia) {
     temperatura = " viento";
 } else {
