@@ -1,3 +1,7 @@
+<IfModule mod_rewrite.c>
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://master-fatima-fajardo.test/$1 [R=301,L]
+</IfModule>
 RewriteEngine On
 RewriteBase /
 # Añade .php a la URL internamente si no tiene extensión

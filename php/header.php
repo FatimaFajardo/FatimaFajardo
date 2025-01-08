@@ -7,8 +7,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
         <link rel="stylesheet" href="/css/estilos.css">
         <link rel="stylesheet" href="/css/fonts.css">
-        <base href="http://marketing.test/" />
-
+        <base href="https://master-fatima-fajardo.test/">
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'].'/php/funciones.php';
 
@@ -57,7 +56,7 @@
                     <ol><a class="enlaces-header" href="otros-recursos">Otros recursos</a></ol>
                     <ol><a class="enlaces-header" href="guias">Guías</a></ol>
                     <ol><a class="enlaces-header" href="quienes-somos">¿Quiénes somos?</a></ol>
-                    <ol><a class="enlaces-header" href="https://www.linkedin.com/in/fatimafajardonovo/">Más información</a></ol>
+                    <ol><a class="enlaces-header" href="categorias">Categorías</a></ol>
                 </ul>
                 <div class="cerrar">x</div>
             </nav>
