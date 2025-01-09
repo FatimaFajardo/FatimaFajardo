@@ -2,7 +2,7 @@
 $page='todos nuestros articulos';
 $h1 = 'Todos nuestros artículos';
 define("h1", "Todos nuestros artículos");
-define ("pagina", "quienes somos");
+define ("pagina", "todos nuestros articulos");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php"; ?>
     <section class="todos-los-articulos">
     <h1> Todos nuestros articulos</h1>

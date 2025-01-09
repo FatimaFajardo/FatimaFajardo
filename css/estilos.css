@@ -36,6 +36,15 @@ nav > ul {
     padding: 0;
     z-index: 10;
 }
+@media (max-width: 600px) {
+    nav > ul {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        font-size: 50px;
+    }
+}
 .cerrar {
     position: fixed;
     top: 11px;

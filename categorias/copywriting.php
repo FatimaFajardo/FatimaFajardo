@@ -1,8 +1,8 @@
 <?php
-$page='copywriting';
+$page='categorias';
 $h1 = 'Todos los recursos de Copywriting';
 define("h1", "Todos los recursos de Copywriting"); /* Tengo una duda; ¿Por qué si los ponemos debajo del include no nos reconoce la variable?. Lo intenté y no me funsiono:( */
-define("pagina", "categoria de copywriting");
+define("pagina", "categorias");
 include $_SERVER["DOCUMENT_ROOT"]. "/php/header.php";
 ?>
     <section id="info-copywriting">

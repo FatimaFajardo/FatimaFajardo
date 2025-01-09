@@ -2,15 +2,13 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
-        <meta charset="viewport" content="width=device-width,initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <base href="https://master-fatima-fajardo.test/">
         <link rel="stylesheet" href="/css/estilos.css">
         <link rel="stylesheet" href="/css/fonts.css">
-        <base href="https://master-fatima-fajardo.test/">
     <?php
         include_once $_SERVER['DOCUMENT_ROOT'].'/php/funciones.php';
-
     switch(constant('pagina')){
         case 'inicio';
             break;
@@ -21,9 +19,11 @@
             case 'quienes somos'; /*podemos poner dos casos a la vez*/
             echo '<link rel="stylesheet" href="/css/otros.css">';
         break;
+        case 'categorias';
+            echo '<link rel="stylesheet" href="/css/categorias.css">';
+        break;
         default:
             echo '<!-- No pondre css en este caso del switch case --!>';
-        /* Default es el equivalente al else en el caso de swtich*/
     }?>
 
         <title><?php
