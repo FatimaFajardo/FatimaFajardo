@@ -133,11 +133,30 @@ span.leer-mas:hover {
     background: var(--turquoise);
     color: var(--white);
 }
-.posts-articles {
+.cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px; /* Espacio entre las columnas */
 }
+.post-cards{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    background-color: var(--turquoise);
+    justify-content: space-around;
+
+}
+.post-cards a{
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 10px 10px;
+    text-align: center;
+    width: 100%;
+    min-height: 10%;
+}
+
 .article-container {
     margin: 8px;
     border: 3px solid var(--grey); /* Opcional: para ver los bordes de los artículos */
