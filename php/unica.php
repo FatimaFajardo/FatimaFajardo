@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <title>Esto es un title</title>
         <meta name="description" content="Esto es una descripción">
+        <meta name="googlebot" content="index, follow, max-image-preview: none, max-snipet: 25, unavailable_after: 2033-09-27" >
+
     </head>
     <body>
         <header>
