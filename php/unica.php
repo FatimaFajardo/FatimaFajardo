@@ -15,7 +15,10 @@
         </header>
         <article>
             <h1>Unica</h1>
-            <p>Esta es una página nueva </p>
+            <div datanosnipet>
+                <p>Esto es un párrafo</p>
+                <p>Esta es una página nueva </p>
+            </div>
         </article>
         <footer>
         
