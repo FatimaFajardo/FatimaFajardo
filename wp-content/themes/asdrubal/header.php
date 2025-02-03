@@ -14,7 +14,9 @@
             break;
         case 'blog';
            echo '<link rel="stylesheet" href="/css/blog.css">'; /*Podriamos poner diferentes hojas de estilo para cada 'tipo'o categoria  de pagona */; ?>
-        <?php wp_head();?>
+        <?php wp_head();
+    include 'componentes/seo.php';
+    ?>
 </head>
     <body>
         <header class="barra-de-navegacion">
