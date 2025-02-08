@@ -7,18 +7,23 @@ $url_sin_string = $protocol.$_SERVER['HTTP_HOST'].strtok($_SERVER['REQUEST_URI']
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <?php the_field('custum_meta',$term);?> <!--Con esto podriamos insertar metaetiquetas personalizadas que no existan en el código, ed forma individual-->
-   
-   
     <?php $metarobots_cheked_values= get_field('metarobots',$term);
     if ($metarobots_cheked_values):?>
     <meta name="robots" content=" <?php the_field ('metarobots',$term)?> "/>
     <?php endif; ?>
 
 
-
-
-
-
+    <!--Configuracion metatags categoría festivales-->
+    <?php 
+        if (in_category('festivales')){ 
+            $metadescripcion_festivales='Conociendo el festival del '. get_field('nombre').' .Se celebra en '.get_field('paises').' durante el '.get_field('fechas').' .Es un festival de '.get_field('musica').' por '.get_field('precio').' ¿Quieres saber más? ';
+        ?>
+            <meta name="description" content="<?php echo $metadescripcion_festivales;?>"/>
+            <meta name="og:description" content="<?php echo $metadescripcion_festivales;?>"/>
+            <meta name="twitter:description" content="<?php echo $metadescripcion_festivales;?>"/>
+        <?php }?>
+        
+<!-- Configuración páginas pilar/no son de categoria -->
     <title><?php the_field('title',$term);?></title>
     <meta name="description" content="<?php the_field('metadescription',$term);?>"/>
     <link rel="canonical" href="<?php if(get_field('canonical',$term)){
